@@ -9,7 +9,7 @@ const Greeting = () => {
             <input type="text" onChange={(e) => {
                 setName(e.target.value)
             }} />
-            <p>{name.length ? `Hello ${name} !` : ""} </p>
+            <p>{name.length ? `Hello ${name}!` : ""} </p>
         
     </div>
   )
